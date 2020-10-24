@@ -7,28 +7,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: white;
+      background: url('hatter5.png') no-repeat center center fixed;
+      background-size: cover;
+      /* background-color: white; */
       padding: 0;
       margin: 0;
     }
 
     header {
-      background-color: #FBAB7E;
-      background-image: linear-gradient(45deg, #ff5e00 0%, #d8269d 100%);
+      /* background-color: #FBAB7E; */
+      /* background-image: linear-gradient(45deg, #ff5e00 0%, #d8269d 100%); */
 
 
-      box-shadow: 0px 0px 87px 11px rgba(184, 184, 184, 0.8);
+      /* box-shadow: 0px 0px 87px 11px rgba(184, 184, 184, 0.8); */
 
       height: 350px;
-      padding: 8em 0 0 15em;
+      padding: 8em 0 0 0em;
       margin: 0px;
       top: 0;
+      color: rgb(143, 91, 91);
       font-family: 'Great Vibes', cursive;
-      text-shadow:2px 2px 6px rgb(0, 0, 0);
+      text-shadow:2px 2px 6px rgba(0, 0, 0, 0.3);
     }
 
     h1 {
-      color: white;
       font-size: 2em;
       font-weight: 100;
       text-align: center;
@@ -38,7 +40,7 @@
     }
 
     h2 {
-      color: white;
+      /* color: rgb(216, 107, 107); */
       font-size: 5em;
       font-weight: 100;
       text-align: center;
@@ -47,7 +49,7 @@
     }
 
     h2 span {
-      color: rgb(226, 152, 165);
+      /* color: rgb(255, 255, 255); */
     }
 
     h3 {
@@ -58,6 +60,22 @@
       padding: 0;
       margin: 0;
     }
+
+    div.box {
+      max-width: 500px;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 3em;
+      border-radius: 1em;
+      margin: 0px auto 5em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div.box p {
+      font-size: 1.4em;
+      font-weight: 900;
+      padding: 0;
+      margin: 0 0 1em;
+    }
   </style>
 </head>
 
@@ -65,8 +83,27 @@
   <header>
     <h1 id="meghivo" onclick="meghivo()">Meghívó</h1>
     <h2>Barbi<span> & </span>Gábor</h2>
-
   </header>
+
+  <div class="box">
+    <p>Helyszín</p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio aut distinctio recusandae suscipit sapiente similique pariatur ducimus. Et, quia tenetur temporibus quidem enim, animi consequuntur dolor ducimus sed quo placeat.
+  </div>
+
+  <div class="box">
+    <p>A résztvevők</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perferendis ut sed hic nihil, suscipit magni beatae eum illo tenetur. Fuga suscipit minus consectetur labore voluptate ea distinctio cupiditate temporibus.
+  </div>
+
+  <div class="box">
+    <p>Itt lehet topogni</p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos maiores voluptatum possimus facere iusto tempora commodi vel est illum quo, molestias accusantium quisquam quidem rem nemo non eos eius recusandae!
+  </div>
+
+  <div class="box">
+    <p>Ennyi lézert hozzál</p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nam amet possimus, provident voluptates laboriosam, non, error odit repellendus quasi perferendis. Odio voluptatem, tenetur sapiente aut deserunt hic rerum repellendus?
+  </div>
 
   <script>
     let meghivoIndex = 0;
